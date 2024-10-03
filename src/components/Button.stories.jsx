@@ -8,9 +8,15 @@ export default {
   component: Button,
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => 
+<div>
+  <div className='h-fit w-screen flex justify-center items-center border-[1px] border-black py-3'>
+    <Button {...args} />
+  </div>
+</div>
 
 export const Primary = Template.bind({});
 Primary.args = {
   label: 'Primary Button',
+  bgColor: '#2f404d'
 };
