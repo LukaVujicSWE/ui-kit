@@ -10,7 +10,7 @@ export default {
 
 const Template = (args) => 
 <div>
-  <div className='h-fit w-screen flex justify-center items-center border-[1px] border-black py-3'>
+  <div className='h-fit w-screen flex justify-center items-center py-3'>
     <Button {...args} />
   </div>
 </div>
